@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>JRowah</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to my website.</p>
+    <p>I am working on the structure. Check back soon.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -20,7 +20,7 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <Link to="/page-2/">Check out my Blog</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
   </Layout>
