@@ -7,12 +7,20 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+    <nav id="nav">
+      <ul className="container">
+        <li><a href="#top">Top</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <Seo title="Home" />
     <h1>Hi, Im JRowah</h1>
     <p>Welcome to my website. I am a self-taught software developer.</p>
     <p>I am working on the structure. Check back soon.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/ppic.jpg"
       width={300}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
