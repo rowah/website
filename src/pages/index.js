@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Hi, Im JRowah</h1>
     <p>Welcome to what in the near future will be my website. I am a self-taught software developer.</p>
-    <p>I am working on the structure. Check back soon. Meanwhile have a look at <Link>https://jrowah.netlify.app/</Link></p>
+    <p>I am working on the structure. Check back soon.</p>
     <StaticImage
       src="../images/ppic.jpg"
       width={300}
