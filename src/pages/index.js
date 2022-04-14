@@ -27,6 +27,7 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+    <p>Meanwhile you can Checkout <link><a href="https://jrowah.netlify.app/">My Dummy Website<a/></link> </p>
     <p>
       <Link to="/page-2/">Check out my Blog</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
